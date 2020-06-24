@@ -1,0 +1,51 @@
+p {
+	margin-top:0.1%;
+	margin-bottom:0.1%;
+}
+
+div {
+	width: 15%;
+	margin-top: 1%;
+	padding: 1%;
+	border: 1px solid #4682B4;
+	min-width: 300px;
+	font-size: 120%;
+}
+p#login a{
+	margin-left: 1%;
+}
+.collapse {
+	display: none;
+}
+
+.prompter:hover {
+	cursor: pointer;
+	background-color: #87CEFA;
+}
+
+
+
+div input[type=text], div input[type=password] {
+ width: 60%;
+}
+
+input[type=submit] {
+	margin-top: 2%;
+}
+
+input[type=button]{
+	margin-left: 25%;
+}
+
+input + span {
+	color: red;
+	font-size: 50%;
+}
+
+label {
+	font-size: 70%;
+}
+
+.errorStyle {
+	border: 1px solid red;
+}

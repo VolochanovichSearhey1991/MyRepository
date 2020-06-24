@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'/>
+		<title>JS</title>
+		<link rel='stylesheet' href='src\css\styles.css'/>
+	</head>
+	<body>
+		<div>
+			Registration
+			<form name='userRegForm'>
+				<label for='login'>Login</label>
+				<p>	<input type='text' name='userLogin' placeholder='enter your login' id='login'/> </p>
+				<label for='pass'>Password</label>
+				<p>	<input type='password' name='userPass' placeholder='enter your password' id='pass'/> </p>
+				<label for='confPass'>Confirm password</label>
+				<p>	<input type='password' name='confUserPass' placeholder='confirm your password' id='confPass'/> </p>
+				<label for='email'>Email</label>
+				<p>	<input type='text' name='userEmail' placeholder='enter your Email' id='email'/> </p>
+				<label for='name'>Name</label>
+				<p>	<input type='text' name='userName' placeholder='enter your Name' id='name'/> </p>
+				<input type='submit' name='toRegistration' value='send'/> 
+				<input type='button' name='regCollapse' value='cancel'/>
+			</form>	
+		</div>
+		
+		<div>
+			Authorization
+			<form name='userAuthorizeForm'>
+				<label for='login'>Login</label>
+				<p>	<input type='text' name='userAuthorizeLogin' placeholder='enter your login' id='login'/> </p>
+				<label for='pass'>Password</label>
+				<p>	<input type='password' name='userAuthorizePass' placeholder='enter your password' id='pass'/> </p>
+				<input type='submit' name='toAuthorization' value='send'/>
+				<input type='button' name='authorizeCollapse' value='cancel'/>
+			</form>	
+		</div>
+		
+		<script src='src/js/jQuery3.5.1.js'></script>
+		<script src='src/js/scripts.js'></script>
+		
+	</body>
+</html>
